@@ -1,7 +1,10 @@
 ﻿MyApp.home = function (params) {
 
     var viewModel = {
-//  Put the binding properties here
+        dataSource: [
+            { id: 1, name: 'Beverages' },
+            { id: 2, name: 'Fruit' }
+        ]
     };
 
     return viewModel;

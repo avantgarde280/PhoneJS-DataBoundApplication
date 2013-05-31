@@ -1,11 +1,7 @@
 ﻿<div data-options="dxView : { name: 'home', title: 'Home' } " >
   <div class="home-view"  data-options="dxContent : { targetPlaceholder: 'content' } " >
-    <div data-bind="dxList: { items: [
-        { id: 1, name: 'Beverages' },
-        { id: 2, name: 'Fruit' }
-      ] }">
-      <div data-options="dxTemplate : { name: 'item' } " data-bind="text: name, dxAction: '#products/1'">
-      </div>
+    <div data-bind="dxList: { dataSource: dataSource }">
+        <div data-options="dxTemplate : { name: 'item' }" data-bind="text: name, dxAction: '#products/{id}'"></div>
     </div>
   </div>
 </div>
