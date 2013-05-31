@@ -20,6 +20,6 @@ $(function() {
           }
         ]
     });
-    MyApp.app.router.register(":view", {view: "home"});
+    MyApp.app.router.register(":view/:id", { view: "home", id: undefined });
     MyApp.app.navigate();   
 });
