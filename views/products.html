@@ -1,0 +1,13 @@
+﻿<div data-options="dxView : { name: 'products', title: 'Products' } " >
+  <div data-options="dxContent : { targetPlaceholder: 'content' } " >
+    <div data-bind="dxList: { items: [
+        { id: 1, name: 'Wiskey', category_id: 1 },
+        { id: 2, name: 'Cognac', category_id: 1 },
+        { id: 3, name: 'Banana', category_id: 2 },
+        { id: 4, name: 'Pineapple', category_id: 2 }
+      ] }">
+      <div data-options="dxTemplate : { name: 'item' }" data-bind="text: name">
+      </div>
+    </div>
+  </div>
+</div>
