@@ -1,7 +1,7 @@
 /* 
 * DevExpress PhoneJS
-* Version: 13.1.2
-* Build date: May 27, 2013
+* Version: 13.1.4
+* Build date: Jun 6, 2013
 *
 * Copyright (c) 2012 - 2013 Developer Express Inc. ALL RIGHTS RESERVED
 * EULA: http://phonejs.devexpress.com/EULA
@@ -1443,10 +1443,6 @@
   font-weight: normal;
   padding: 15px 5px;
 }
-.dx-theme-desktop .dx-toolbar .dx-toolbar-left, .dx-theme-desktop .dx-toolbar .dx-toolbar-right
-{
-  background-color: #efefef;
-}
 .dx-theme-desktop .dx-slider.dx-state-disabled .dx-slider-wrapper .dx-slider-bar
 {
   background: #fff;
@@ -1755,7 +1751,7 @@
   padding: .5em 1em;
   font-size: 1em;
 }
-.dx-theme-desktop .dx-popup .dx-autocomplete-popup.dx-overlay-content
+.dx-theme-desktop .dx-popup.dx-autocomplete-popup .dx-overlay-content
 {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1764,34 +1760,34 @@
   -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
   box-shadow: 0 1px 10px rgba(0,0,0,.1);
 }
-.dx-theme-desktop .dx-popup .dx-autocomplete-popup.dx-overlay-content .dx-popup-content
+.dx-theme-desktop .dx-popup.dx-autocomplete-popup .dx-overlay-content .dx-popup-content
 {
   padding: 0;
   border: 1px solid #d1d1d1;
 }
-.dx-theme-desktop .dx-popup .dx-autocomplete-popup.dx-overlay-content .dx-popup-content .dx-list
+.dx-theme-desktop .dx-popup.dx-autocomplete-popup .dx-overlay-content .dx-popup-content .dx-list
 {
   background-color: #fff;
 }
-.dx-theme-desktop .dx-popup .dx-autocomplete-popup.dx-overlay-content .dx-popup-content .dx-list .dx-list-item
+.dx-theme-desktop .dx-popup.dx-autocomplete-popup .dx-overlay-content .dx-popup-content .dx-list .dx-list-item
 {
   font-size: 1.2em;
   border-top: 0;
   padding: .5em 1em;
 }
-.dx-theme-desktop .dx-popup .dx-autocomplete-popup.dx-overlay-content .dx-popup-content .dx-list .dx-autocomplete-selected
+.dx-theme-desktop .dx-popup.dx-autocomplete-popup .dx-overlay-content .dx-popup-content .dx-list .dx-autocomplete-selected
 {
   background-color: #f4f4f4;
 }
-.dx-theme-desktop .dx-popup .dx-autocomplete-popup.dx-overlay-content .dx-popup-content .dx-list .dx-autocomplete-selected.dx-state-active
+.dx-theme-desktop .dx-popup.dx-autocomplete-popup .dx-overlay-content .dx-popup-content .dx-list .dx-autocomplete-selected.dx-state-active
 {
   background-color: #f1f1f1;
 }
-.dx-theme-desktop .dx-popup .dx-overlay-content.dx-action-sheet-popup
+.dx-theme-desktop .dx-popup.dx-action-sheet-popup .dx-overlay-content
 {
   border-radius: 0;
 }
-.dx-theme-desktop .dx-popup .dx-overlay-content.dx-action-sheet-popup .dx-popup-title
+.dx-theme-desktop .dx-popup.dx-action-sheet-popup .dx-overlay-content .dx-popup-title
 {
   border-radius: 0;
 }
@@ -2044,7 +2040,7 @@
 {
   display: none;
 }
-.dx-theme-desktop .dx-popup .dx-dropdownmenu-popup.dx-overlay-content
+.dx-theme-desktop .dx-popup.dx-dropdownmenu-popup .dx-overlay-content
 {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -2053,13 +2049,13 @@
   -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
   box-shadow: 0 1px 10px rgba(0,0,0,.1);
 }
-.dx-theme-desktop .dx-popup .dx-dropdownmenu-popup.dx-overlay-content .dx-popup-content
+.dx-theme-desktop .dx-popup.dx-dropdownmenu-popup .dx-overlay-content .dx-popup-content
 {
   padding: 0;
   border: 1px solid #d1d1d1;
   background-color: #fff;
 }
-.dx-theme-desktop .dx-popup .dx-dropdownmenu-popup.dx-overlay-content .dx-popup-content .dx-list-item
+.dx-theme-desktop .dx-popup.dx-dropdownmenu-popup .dx-overlay-content .dx-popup-content .dx-list-item
 {
   padding: .5em;
   border-top: 0;
@@ -2206,7 +2202,7 @@
 }
 .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-splitter .button .expand
 {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAATUlEQVQoz2P4//8/A6mYgZqaWEnVxLT/wDEg9V8BiBmJ1cTS0Nz/H6pRkCRNSBq5iHIeTBOSRsIBgaZBlGhNUA1CRAc5VAMnXSKX+poA0vH3t3SY9gEAAAAASUVORK5CYII=) no-repeat;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAK0lEQVQY02Po7u4+DMT/8eDDDCAGPgCSx1CEjU+aImzuoaF1hHxHKJyOAAD8VAohNdFmWgAAAABJRU5ErkJggg==) no-repeat;
 }
 .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-splitter .button .collapse, .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-splitter .button .expand
 {
@@ -2222,8 +2218,8 @@
 }
 .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-area td
 {
-  color: #939393;
-  padding: 10px 5px;
+  color: #767676;
+  padding: 7px 5px;
   overflow: hidden;
 }
 .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-area-data
@@ -2234,7 +2230,7 @@
 .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-area-data td
 {
   text-align: right;
-  color: #000;
+  color: #1b1b1b;
   white-space: nowrap;
   border-left: 1px solid #ccc;
 }
@@ -2308,13 +2304,15 @@
 }
 .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-collapsed .image, .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-expanded .image
 {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAATUlEQVQoz2P4//8/A6mYgZqaWEnVxLT/wDEg9V8BiBmJ1cTS0Nz/H6pRkCRNSBq5iHIeTBOSRsIBgaZBlGhNUA1CRAc5VAMnXSKX+poA0vH3t3SY9gEAAAAASUVORK5CYII=) no-repeat;
-  padding-left: 13px;
+  float: left;
+  height: 9px;
+  width: 9px;
   margin-right: 5px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAK0lEQVQY02Po7u4+DMT/8eDDDCAGPgCSx1CEjU+aImzuoaF1hHxHKJyOAAD8VAohNdFmWgAAAABJRU5ErkJggg==) no-repeat;
 }
 .dx-theme-desktop .dx-pivotgrid .dx-pivotgrid-expanded .image
 {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAaElEQVQoz2P4//8/A6mYYVBq4sGmiRGIjaHYCogtgVgKiAWBWByIvbFp0t5/4Nj/huZ+DAwSBwIObJpYgTgVXSNUQwQ+PzEBcTBMI1RDHRBzExMQ5lANgUDMTmzogUy2BWLmoRO5cAwAPwL7WgxkR1AAAAAASUVORK5CYII=) no-repeat;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAJklEQVQY02Po7u4+DMT/8eDDDCAGPgCSp4EibO6hoXWEFBEKpyMAiKAPkXuAFycAAAAASUVORK5CYII=) no-repeat;
 }
 .dx-theme-desktop .dx-pivotgrid .vertical-scrollbar-spacing
 {
@@ -2742,4 +2740,79 @@
 .dx-theme-desktop .dx-dashboard-viewer .dxChartTitle span
 {
   color: gray !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series .hovered-point
+{
+  fill: #5f8b95 !important;
+  stroke: #5f8b95 !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series path.dx-candle-default
+{
+  fill: #5f8b95 !important;
+  stroke: #5f8b95 !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series path.dx-candle-default.dx-chart-hovered-point
+{
+  fill: #5f8b95 !important;
+  stroke: #5f8b95 !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series path.dx-candle-reduction
+{
+  fill: black !important;
+  stroke: black !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series path.dx-candle-reduction.dx-chart-hovered-point
+{
+  fill: #5f8b95 !important;
+  stroke: #5f8b95 !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series path.dx-candle-default.dx-candle-positive
+{
+  fill: white !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series path.dx-candle-default.dx-candle-positive.dx-chart-hovered-point
+{
+  fill: #5f8b95 !important;
+  stroke: #5f8b95 !important;
+  fill: white !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series path.dx-candle-reduction.dx-candle-positive
+{
+  fill: white !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.series g.series path.dx-candle-reduction.dx-candle-positive.dx-chart-hovered-point
+{
+  fill: #5f8b95 !important;
+  stroke: #5f8b95 !important;
+  fill: white !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.dxLegend g g.dxLegendSeries rect.dx-candle-default
+{
+  fill: #5f8b95 !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.dxTooltip path.dx-candle-default
+{
+  fill: #5f8b95 !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.dxTooltip path.dx-candle-default+text
+{
+  fill: #6f6f6f;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.dxTooltip path.dx-candle-reduction
+{
+  fill: black !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.dxTooltip path.dx-candle-reduction+text
+{
+  fill: #6f6f6f;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.labels g.labels g g rect.dx-candle-default
+{
+  fill: #5f8b95 !important;
+  stroke: #5f8b95 !important;
+}
+.dx-theme-desktop .dx-dashboard-viewer g.labels g.labels g g rect.dx-candle-reduction
+{
+  fill: black !important;
+  stroke: black !important;
 }

@@ -1,7 +1,7 @@
 /* 
 * DevExpress PhoneJS
-* Version: 13.1.2
-* Build date: May 27, 2013
+* Version: 13.1.4
+* Build date: Jun 6, 2013
 *
 * Copyright (c) 2012 - 2013 Developer Express Inc. ALL RIGHTS RESERVED
 * EULA: http://phonejs.devexpress.com/EULA
@@ -989,7 +989,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 {
   bottom: 85px;
 }
-.dx-overlay-content.dx-action-sheet-popup
+.dx-action-sheet-popup .dx-overlay-content
 {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1004,14 +1004,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding-top: 0;
   padding-bottom: 0;
 }
-.dx-overlay-content.dx-action-sheet-popup .dx-button
+.dx-action-sheet-popup .dx-overlay-content .dx-button
 {
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
 }
-.dx-overlay-content.dx-action-sheet-popup .dx-action-sheet-item, .dx-overlay-content.dx-action-sheet-popup .dx-action-sheet-cancel
+.dx-action-sheet-popup .dx-overlay-content .dx-action-sheet-item, .dx-action-sheet-popup .dx-overlay-content .dx-action-sheet-cancel
 {
   width: 100%;
 }
@@ -1170,6 +1170,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   user-select: none;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  overflow: hidden;
 }
 .dx-dashboard-viewer .dx-dashboard-splitter-pane-empty
 {
@@ -1182,6 +1183,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   user-select: none;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  overflow: visible;
 }
 .dx-dashboard-icon
 {
@@ -1425,10 +1427,6 @@ div.dx-dashboard-splitter-layout-place
   width: 100%;
   height: 100%;
   vertical-align: top;
-}
-div.dx-dashboard-splitter-layout-place, div.dx-dashboard-splitter-separator
-{
-  overflow: hidden;
 }
 div.dx-dashboard-layout-shield
 {
